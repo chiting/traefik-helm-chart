@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  traefik:
+  - apiVersion: v1
+    appVersion: 2.1.1
+    created: "2020-01-10T16:16:21.13171Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: fe4c99365ebbbe2b237bd86cf2e0ff42462ac464f4c86dde78134fe0f7e78d28
+    home: https://traefik.io/
+    icon: http://traefik.io/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    urls:
+    - traefik-3.1.0.tgz
+    version: 3.1.0
+generated: "2020-01-10T16:16:21.128117Z"
