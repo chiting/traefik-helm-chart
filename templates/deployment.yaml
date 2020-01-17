@@ -67,6 +67,7 @@ spec:
         args:
           - "--global.checknewversion=false"
           - "--global.sendanonymoususage=false"
+          - "--accesslog=true"
           {{- range $name, $config := .Values.ports }}
           - "--entryPoints.{{$name}}.address=:{{ $config.port }}"
           {{- end }}
