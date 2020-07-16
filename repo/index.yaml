@@ -3,9 +3,9 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 2.2.5
-    created: "2020-07-16T11:39:16.9667784+01:00"
+    created: "2020-07-16T11:41:34.3626299+01:00"
     description: A Traefik based Kubernetes ingress controller
-    digest: 5c56eef66d622593ac34a0a8b24658989037f33dfb5254681a235b38259a2c9a
+    digest: d9f1e7b2158bc35191e6aa382f27af8deb8eca5b68743b761113fa060b1b28d9
     home: https://traefik.io/
     icon: https://raw.githubusercontent.com/containous/traefik/v2.2/docs/content/assets/img/traefik.logo.png
     keywords:
@@ -24,4 +24,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/chiting/traefik-helm-chart/custom/8.9.1/repo/traefik-8.9.1.tgz
     version: 8.9.1
-generated: "2020-07-16T11:39:16.9658282+01:00"
+generated: "2020-07-16T11:41:34.3617467+01:00"
