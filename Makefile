@@ -41,11 +41,8 @@ build: global-requirements $(DIST_DIR)
 # Prepare the Helm repository with the latest packaged charts
 deploy: global-requirements $(DIST_DIR) $(HELM_REPO)
 	@echo "== Deploying Chart..."
-	@rm -rf $(CURDIR)/gh-pages.zip
-	@curl -sSLO https://$(PROJECT)/archive/gh-pages.zip
-	@unzip -oj $(CURDIR)/gh-pages.zip -d $(HELM_REPO)/
 	@cp $(DIST_DIR)/*tgz $(HELM_REPO)/
-	@helm repo index --merge $(HELM_REPO)/index.yaml --url https://containous.github.io/traefik-helm-chart/ $(HELM_REPO)
+	@helm repo index --merge $(HELM_REPO)/index.yaml --url https://raw.githubusercontent.com/chiting/traefik-helm-chart/custom/8.9.1/repo $(HELM_REPO)
 	@echo "== Deploying Finished"
 
 # Cleanup leftovers and distribution dir

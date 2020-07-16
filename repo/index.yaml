@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  traefik:
+  - apiVersion: v1
+    appVersion: 2.2.5
+    created: "2020-07-16T11:23:01.6479946+01:00"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 9a7cabc9bdfce83ac996a0e17405e81b99e23bcdf365f228b6bf3e0ed0c95f50
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/containous/traefik/v2.2/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    urls:
+    - https://raw.githubusercontent.com/chiting/traefik-helm-chart/custom/8.9.1/repo/traefik-8.9.1.tgz
+    version: 8.9.1
+generated: "2020-07-16T11:23:01.64709+01:00"
