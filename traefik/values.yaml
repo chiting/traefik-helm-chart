@@ -74,7 +74,6 @@ globalArguments:
   - "--global.checknewversion=false"
   - "--global.sendanonymoususage=false"
   - "--acceslog=true"
-  - "--ping=true"
 
 #
 # Configure Traefik static configuration
