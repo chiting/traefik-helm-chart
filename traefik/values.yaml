@@ -71,8 +71,10 @@ volumes: []
 #   type: configMap
 
 globalArguments:
-  - "--global.checknewversion"
-  - "--global.sendanonymoususage"
+  - "--global.checknewversion=false"
+  - "--global.sendanonymoususage=false"
+  - "--acceslog=true"
+  - "--ping=true"
 
 #
 # Configure Traefik static configuration
