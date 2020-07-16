@@ -73,7 +73,7 @@ volumes: []
 globalArguments:
   - "--global.checknewversion=false"
   - "--global.sendanonymoususage=false"
-  - "--acceslog=true"
+  - "--accesslog=true"
 
 #
 # Configure Traefik static configuration
